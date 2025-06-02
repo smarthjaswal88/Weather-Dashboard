@@ -30,8 +30,8 @@ export default function WeatherDashboard() {
   }
 
   return (
-<div style={{ backgroundColor: "black", height: "100vh" }}>
-    <div className="min-h-screen bg-gradient-to-br from-blue-400 via-blue-500 to-blue-600 p-4">
+<div style={{ backgroundColor: "#1b094f;", height: "100vh" }}>
+    <div className="p-4">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="text-center mb-8">
