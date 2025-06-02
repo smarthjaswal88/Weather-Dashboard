@@ -40,7 +40,7 @@ export default function WeatherDashboard() {
         </div>
 
         {/* Controls */}
-        <div className="flex justify-between items-center mb-6">
+       <div className="flex justify-between items-center mb-6" style={{ gap: '15px' }}>
           <SearchInput />
           <Button
             onClick={toggleTemperatureUnit}
